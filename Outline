@@ -1,0 +1,33 @@
+Home Page:
+
+Simple login:
+  Sign In or New User
+  New User (save to database):
+    username
+    password
+    captcha
+  Sign in (check database):
+    username
+    password
+    
+Dashboard:
+  View existing pets:
+    Existing Pets Summary Screen:
+    Select a pet brings them to the pet page
+    
+  Add new pets:
+    New Pet Screen:
+    Adds new pet to database, then brings user to that pet page
+    
+
+
+
+
+Needed Methods:
+
+static void AddPet(petName, petType)
+
+static void UpdatePet(petName)
+
+static void DeletePet(petName)
+  Use some sort of confirmation to delete from database
